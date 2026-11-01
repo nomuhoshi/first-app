@@ -2,7 +2,7 @@
 
 我的第一个公开发布的应用：**用手机学 Python 的网页应用（PWA）**，免费发布，不上 App Store。
 
-> 状态：规格 v0.1 已完成，技术方案已部分确认（2026-11-01），即将开始第 1 步。还没有应用代码。
+> 状态：规格 v0.1 已完成，第 1 步（技术验证页）代码完成，自动测试 40/40 通过，等待 iPhone 真机测试（2026-11-01）。
 
 ## 目标
 - 面向公众，免费，只用手机就能学 Python
@@ -19,7 +19,18 @@
 | `docs/04-product-idea.md` | 产品想法：碎片编程 · 词源加练 |
 | `spec/SPEC.md` | **产品规格 v0.1（权威）** |
 | `docs/05-tech-plan.md` | 技术方案与第一步计划（待确认） |
+| `docs/06-step1-checklist.md` | 第 1 步验收记录和 iPhone 手动测试清单 |
+| `src/` | 应用代码 |
+| `tests/` | 自动测试 |
 | `spikes/` | 技术验证用的临时代码 |
+
+## 本地运行
+```
+npm install
+npm run dev      # 开发模式
+npm run build    # 打包到 dist/
+npm test         # 自动测试（需先 build）
+```
 | `skills/ai-assisted-dev-workflow/SKILL.md` | 可发给任何 AI 的开发流程 skill |
 
 ## 工作流程（简版）
