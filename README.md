@@ -2,7 +2,7 @@
 
 我的第一个公开发布的应用：**用手机学 Python 的网页应用（PWA）**，免费发布，不上 App Store。
 
-> 状态：规格 v0.1 已完成，技术方案待确认（2026-11-01）。还没有应用代码。
+> 状态：规格 v0.1 已完成，技术方案已部分确认（2026-11-01），即将开始第 1 步。还没有应用代码。
 
 ## 目标
 - 面向公众，免费，只用手机就能学 Python
@@ -14,7 +14,7 @@
 |---|---|
 | `FOR_GPT.md` | **给 GPT 的任务说明，先读这个** |
 | `docs/01-context.md` | 我是谁、做这个的原因、约束条件 |
-| `docs/02-michael-workflow.md` | 一位资深工程师用 AI 做软件的流程（我要学的方法） |
+| `docs/02-senior-engineer-workflow.md` | 一位资深工程师用 AI 做软件的流程（我要学的方法） |
 | `docs/03-distribution-options.md` | 发布方式对比：PWA / Google Play / App Store，以及为什么选 PWA |
 | `docs/04-product-idea.md` | 产品想法：碎片编程 · 词源加练 |
 | `spec/SPEC.md` | **产品规格 v0.1（权威）** |

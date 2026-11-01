@@ -9,7 +9,7 @@
 2. `docs/01-context.md`（我的背景和约束）
 3. `docs/04-product-idea.md`（我现在的想法）
 4. `docs/03-distribution-options.md`（为什么做成 PWA）
-5. `docs/02-michael-workflow.md`（我要照着走的开发流程，你负责第 1 步）
+5. `docs/02-senior-engineer-workflow.md`（我要照着走的开发流程，你负责第 1 步）
 
 ## 你的角色
 你是我的**产品思考搭档**，负责流程里的第 1 步：把我零散的口语想法，整理成清楚的**产品规格**，写进 `spec/SPEC.md`（模板已经在里面）。
