@@ -2,12 +2,12 @@
 
 我的第一个公开发布的应用：**用手机学 Python 的网页应用（PWA）**，免费发布，不上 App Store。
 
-> 状态：产品构思阶段（2026-11-01）。还没有任何代码。
+> 状态：规格 v0.1 已完成，技术方案待确认（2026-11-01）。还没有应用代码。
 
 ## 目标
 - 面向公众，免费，只用手机就能学 Python
 - 利用碎片时间，尽量不用键盘（点选为主）
-- 第一版只做一个功能：**词源加练**（见 `docs/04-product-idea.md`）
+- 首发：10 节微型课程 + 内置编程键盘 + 浏览器内真 Python 运行；词源改为可选的词义卡。**范围以 `spec/SPEC.md` 为准。**
 
 ## 目录（建议阅读顺序）
 | 文件 | 内容 |
@@ -17,7 +17,9 @@
 | `docs/02-michael-workflow.md` | 一位资深工程师用 AI 做软件的流程（我要学的方法） |
 | `docs/03-distribution-options.md` | 发布方式对比：PWA / Google Play / App Store，以及为什么选 PWA |
 | `docs/04-product-idea.md` | 产品想法：碎片编程 · 词源加练 |
-| `spec/SPEC.md` | 产品规格（待填，由 GPT 帮我和我一起写） |
+| `spec/SPEC.md` | **产品规格 v0.1（权威）** |
+| `docs/05-tech-plan.md` | 技术方案与第一步计划（待确认） |
+| `spikes/` | 技术验证用的临时代码 |
 | `skills/ai-assisted-dev-workflow/SKILL.md` | 可发给任何 AI 的开发流程 skill |
 
 ## 工作流程（简版）
